@@ -1,0 +1,4 @@
+to create a hidden file put . before the file name
+to see hidden file run ls code with -a
+to create a nested directory in a single command use -p after mkdir command
+to append a message to a file, without a newline character use echo. echo adds a newline every time or you can use multiple echos in parenthesis
