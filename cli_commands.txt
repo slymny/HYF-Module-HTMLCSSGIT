@@ -1,4 +1,12 @@
-to create a hidden file put . before the file name
-to see hidden file run ls code with -a
-to create a nested directory in a single command use -p after mkdir command
-to append a message to a file, without a newline character use echo. echo adds a newline every time or you can use multiple echos in parenthesis
+to create a hidden file, after touch command  put . before the file name:
+"touch .fileName.txt"
+to create a hidden folder, after mkdir command put . before the folder name:
+"mkdir .folderName"
+to see hidden file, run ls code with -a:
+"ls -a"
+to create a nested directory in a single command use -p after mkdir command:
+"mkdir -p usr/dir1/dir2"
+to append a multiple line message to a file, without a newline character use multiple echos:
+"(echo "line1"; echo "line2") >> fileName.txt"
+if you want to add newline between messages you should use like:
+"echo "line1 \nline2"
